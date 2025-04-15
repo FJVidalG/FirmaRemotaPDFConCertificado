@@ -14,7 +14,7 @@ Sistema cliente-servidor para firma digital de documentos PDF utilizando cifrado
 
 | Componente          | Tecnología/Librería                                                                 | Función                                                                 |
 |---------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| Lenguaje principal  | **Java 8+**                                                                         | Desarrollo del núcleo lógico                                           |
+| Lenguaje principal  | **Java 21**                                                                         | Desarrollo del núcleo lógico                                           |
 | Comunicación        | **Sockets TCP**                                                                     | Interacción cliente-servidor                                           |
 | Criptografía        | **RSA (4096 bits)** para intercambio de claves<br>**AES-256** para cifrado de datos | Cifrado híbrido                                                        |
 | Firma PDF           | **[iText 5.5.13](https://itextpdf.com/)**                                          | Manipulación y firma digital de documentos PDF                         |
