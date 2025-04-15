@@ -1,5 +1,13 @@
 # 🖩 Sistema de Firma Digital de PDFs con Cifrado Híbrido
 
+[![Estado](https://img.shields.io/badge/Estado-✅_Estable-brightgreen)](https://github.com/FJVidalG/FirmaRemotaPDFConCertificado)
+[![Java](https://img.shields.io/badge/Java-21-FF160C?logo=java&logoColor=white)](https://java.com)
+[![Maven](https://img.shields.io/badge/Maven-3.8.6-C71A36?logo=apache-maven&logoColor=white)](https://maven.apache.org)
+[![Criptografía](https://img.shields.io/badge/Criptografía-RSA%2FAES-8A2BE2)](https://es.wikipedia.org/wiki/Criptografía_híbrida)
+[![iText](https://img.shields.io/badge/iText-5.5.13-FF6F00)](https://itextpdf.com)
+[![BouncyCastle](https://img.shields.io/badge/Bouncy_Castle-1.70-000000)](https://www.bouncycastle.org)
+[![Licencia](https://img.shields.io/badge/Licencia-MIT-yellow)](https://opensource.org/licenses/MIT)
+
 Sistema cliente-servidor para firma digital de documentos PDF utilizando cifrado híbrido (RSA + AES) con validación de integridad.
 
 ## 🔧 Tecnologías y Librerías
