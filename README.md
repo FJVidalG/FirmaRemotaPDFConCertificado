@@ -132,7 +132,7 @@ java -cp target/your-project.jar com.fjvid.Cliente
 
 📄 **Archivos de prueba:** PDFs con texto lorem ipsum
 
-## 👤 Contacto
+## 👤 Autor
 
 **Francisco Jesús Vidal García**  
 [![Email](https://img.shields.io/badge/📧_Email-fjvidalgarcia%40gmail.com-%23007EC6?style=flat&logo=gmail&logoColor=white)](mailto:fjvidalgarcia@gmail.com)  
