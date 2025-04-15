@@ -65,7 +65,7 @@ Sistema cliente-servidor para firma digital de documentos PDF utilizando cifrado
 ## 🛠️ Configuración Requerida
 
 ### Prerrequisitos
-- Java JDK 8+
+- Java JDK 21+
 - Maven 3.6+
 - OpenSSL (para generar certificados de prueba)
 
