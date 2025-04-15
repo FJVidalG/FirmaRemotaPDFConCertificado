@@ -80,8 +80,9 @@ openssl pkcs12 -export \
 
 ## **⚠️ Consideraciones Clave**  
 > - **Ubicación del certificado:**  
->   Colocar `certificado.p12` en el directorio raíz del proyecto  
-> - **Credenciales:**  
+>   Colocar `certificado.p12` (o como se haya nombrado) en el directorio raíz del proyecto  
+> - **Credenciales:**
+>   Nombre por defecto del certificado: `certificado_de_Usuario` (modificar en código si se cambia)  
 >   Contraseña por defecto: `123456` (modificar en código si se cambia)  
 > - **Seguridad:**  
 >   Nunca subir archivos `.p12` o `.pem` al repositorio
