@@ -90,6 +90,7 @@ openssl pkcs12 -export \
 ## 🚀 Ejecución del Sistema
 **1. Compilación y Empaquetado**
 ```bash
+# En la raiz del proyecto
 mvn clean package
 ```
 **2. Iniciar Servidor**
@@ -98,6 +99,7 @@ java -cp target/your-project.jar com.fjvid.Servidor
 ```
 **3. Ejecutar Cliente**
 ```bash
+# En otra terminal
 java -cp target/your-project.jar com.fjvid.Cliente
 ```
 ## Flujo típico de uso:
