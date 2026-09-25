@@ -110,8 +110,6 @@ El cliente pide el nombre del documento (por ejemplo `pdf1.pdf`), lo recibe firm
 
 ## Limitaciones conocidas
 
-Es una práctica de clase y hay cosas que haría de otra forma en un sistema real:
-
 - **El modo de cifrado AES no está indicado.** `Cipher.getInstance("AES")` usa por defecto el modo ECB, que deja ver patrones del documento y no detecta si se ha modificado por el camino. Lo correcto sería `AES/GCM/NoPadding` con un vector de inicialización aleatorio.
 - **El tamaño de la clave RSA del canal no está fijado.** Sin llamar a `initialize()` se usa el valor por defecto del JDK: 2048 bits hasta Java 18 y 3072 a partir de Java 19. Convendría fijarlo de forma explícita. El certificado de firma es aparte y usa la clave que se genere con OpenSSL.
 - **El relleno RSA es PKCS#1 v1.5**, que se considera antiguo. Hoy se recomienda OAEP.
