@@ -52,7 +52,7 @@ El canal usa cifrado híbrido: RSA para intercambiar una clave de sesión y AES 
 
 ## Requisitos
 
-- JDK 8 o superior (se desarrolló con JDK 21)
+- JDK 8 o superior
 - Maven
 - OpenSSL, para generar el certificado de prueba
 
